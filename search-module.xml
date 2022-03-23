@@ -1,0 +1,22 @@
+<suite name="search-module">
+    <test name="search-1">
+        <parameter name="keyword" value="qa" />
+        <classes>
+            <class name="com.searchmodule.test.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-2">
+        <parameter name="keyword" value="java" />
+
+        <classes>
+            <class name="com.searchmodule.test.SearchTest" />
+        </classes>
+    </test>
+    <test name="search-3">
+    <parameter name="keyword" value="docker" />
+
+    <classes>
+        <class name="com.searchmodule.test.SearchTest" />
+    </classes>
+    </test>
+</suite>
